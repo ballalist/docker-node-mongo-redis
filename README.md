@@ -1,6 +1,6 @@
 Docker, Node.js(Express), Redis, MongoDB, Nginx for self learning
 
-#100% works with newbie developer
+# 100% works with newbie developer
 - You will get all of this work in your local development by type `docker-compose up` in your terminal.
 
 # Instruction  
