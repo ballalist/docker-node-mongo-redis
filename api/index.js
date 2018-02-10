@@ -1,15 +1,10 @@
-const restify = require('restify');
+const express = require('express') 
+const app = express() 
 
-function respond(req, res, next) {
-  res.send('hello ' + req.params.name);
-  next();
-}
+app.get('/', (req, res) => { 
+    res.send('test')
+})
 
-const server = restify.createServer();
-server.get('/hello/:name', respond);
-server.head('/hello/:name', respond);
-
-server.listen(3000, function() {
-  console.log('%s listening at %s', server.name, server.url);
-});
-
+app.listen(3000, () => {
+    console.log('ready on http://localhost:3000')
+}) 
