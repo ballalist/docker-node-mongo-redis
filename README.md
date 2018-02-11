@@ -10,4 +10,4 @@ You must have Docker to run this repo
 - Clone this repo
 - `cd api` and run `npm install`
 - `cd ..`
-- `docker compose up`
+- `docker-compose up`
